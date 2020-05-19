@@ -1,0 +1,461 @@
+{
+  "navigator": {
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+  },
+  "theme": "default",
+  "home": {
+    "banner": [
+      {
+        "itemId": 710295264893448,
+        "itemType": 10,
+        "templateMaterial": {
+          "itemId": 710295264893448,
+          "templateType": 0,
+          "widgetImage": "https://img.36krcdn.com/20200517/v2_de97f12966d54db29d9c3aefdec0bf2a_img_png",
+          "publishTime": 1589684580253,
+          "widgetTitle": "笑果是家“破公司”，不信你去问李诞丨深氪"
+        },
+        "route": "detail_article?itemId=710295264893448"
+      },
+      {
+        "itemId": 4931,
+        "itemType": 0,
+        "templateMaterial": {
+          "positionId": 824,
+          "adSdk": "WaFFJisao9jrnnUR4-EScSUmlUvczTklbssisgpYewK5WK0ORJ3B5zHDOg0uRvCM93FdEDDovK63ImWLTjZfww",
+          "adExposureUrl": "https://adx.36kr.com/api/ad/exposure?sign=cd15c77d61e2cbee6cf00d373113f4b0&param.adsdk=WaFFJisao9jrnnUR4-EScSUmlUvczTklbssisgpYewK5WK0ORJ3B5zHDOg0uRvCM93FdEDDovK63ImWLTjZfww",
+          "adJsonContent": "{\"title\":\"中国进入新基建时间，智慧交通机会几何？\",\"src\":\"https://img.36krcdn.com/20200428/v2_f732a0b557744497826b8f0a17f04f3d_img_jpg\",\"href\":\"https://adx.36kr.com/api/ad/click?sign=7ab925e52129a9669304ef944179992d&param.redirectUrl=aHR0cHM6Ly8zNmtyLmNvbS9wLzY4MzE2MTQxNzM2NzY4MA&param.adsdk=WaFFJisao9jrnnUR4-EScSUmlUvczTklbssisgpYewK5WK0ORJ3B5zHDOg0uRvCM93FdEDDovK63ImWLTjZfww\"}",
+          "flag": "商业策划"
+        }
+      },
+      {
+        "itemId": 710591974595334,
+        "itemType": 10,
+        "templateMaterial": {
+          "itemId": 710591974595334,
+          "templateType": 0,
+          "widgetImage": "https://img.36krcdn.com/20200517/v2_10849f9c6ea647ef9c24a4e12c1cbaa5_img_jpg",
+          "publishTime": 1589684581156,
+          "widgetTitle": "智氪 | 厮杀仍可夺食，京东终迎翻身仗？"
+        },
+        "route": "detail_article?itemId=710591974595334"
+      },
+      {
+        "itemId": 698919485667974,
+        "itemType": 5000,
+        "templateMaterial": {
+          "itemId": 698919485667974,
+          "templateType": 0,
+          "widgetImage": "https://img.36krcdn.com/20200515/v2_65f37c72007d43aeb84dea55e1402cf6_img_jpg",
+          "publishTime": 1589510354202,
+          "widgetTitle": "没想到百货公司"
+        },
+        "route": "detail_topic?itemId=698919485667974"
+      },
+      {
+        "itemId": 0,
+        "itemType": 1,
+        "templateMaterial": {
+          "itemId": 0,
+          "templateType": 0,
+          "widgetImage": "https://img.36krcdn.com/20200511/v2_90dc166e07c84b949331a0b4b9647615_img_jpg",
+          "publishTime": 1589539184186,
+          "widgetTitle": "36氪用户调研问卷"
+        },
+        "route": "webview?url=https%3A%2F%2Fwww.wenjuan.com%2Fs%2FVbYFnyD%2F"
+      },
+      {
+        "itemId": 5379,
+        "itemType": 0,
+        "templateMaterial": {
+          "positionId": 828,
+          "adSdk": "8bIdEgR8nW6SQSWBPo9G_mZGJjUZ5MdoyZO-fJAE6QXlg5unyFbLaVKzhYKfxD66zZ8qVPVd7YlWVn4kRxs5Gg",
+          "adExposureUrl": "https://adx.36kr.com/api/ad/exposure?sign=3701a17023aa3d61c6c4cc4db0f8e9a9&param.adsdk=8bIdEgR8nW6SQSWBPo9G_mZGJjUZ5MdoyZO-fJAE6QXlg5unyFbLaVKzhYKfxD66zZ8qVPVd7YlWVn4kRxs5Gg",
+          "adJsonContent": "{\"title\":\"未来新消费 | 直播峰会报名\",\"src\":\"https://img.36krcdn.com/20200515/v2_694b851b5160492f9a323689cf6c589e_img_png\",\"href\":\"https://adx.36kr.com/api/ad/click?sign=1727839c31cd4c1d1c2fcb7cbf2e48b7&param.redirectUrl=aHR0cDovL2xpbmdzaG91Ym9zcy5taWtlY3JtLmNvbS94TUxrSERC&param.adsdk=8bIdEgR8nW6SQSWBPo9G_mZGJjUZ5MdoyZO-fJAE6QXlg5unyFbLaVKzhYKfxD66zZ8qVPVd7YlWVn4kRxs5Gg\"}",
+          "flag": "商业视角"
+        }
+      }
+    ],
+    "flow": {
+      "itemList": [
+        {
+          "itemId": 707006358132737,
+          "itemType": 10,
+          "templateMaterial": {
+            "itemId": 707006358132737,
+            "templateType": 1,
+            "widgetImage": "https://img.36krcdn.com/20200514/v2_d24649f9243f456ab16d768b35c5c0f7_img_jpeg",
+            "publishTime": 1589692911629,
+            "widgetTitle": "B站UP主恰饭行为大赏",
+            "authorName": "短视频参谋",
+            "navName": "生活"
+          },
+          "route": "detail_article?itemId=707006358132737"
+        },
+        {
+          "itemId": 708599875409922,
+          "itemType": 10,
+          "templateMaterial": {
+            "itemId": 708599875409922,
+            "templateType": 1,
+            "widgetImage": "https://img.36krcdn.com/20200515/v2_f70cd52c140940088526736703754414_img_000",
+            "publishTime": 1589692024725,
+            "widgetTitle": "为什么说快手是另一个拼多多",
+            "authorName": "虫二",
+            "navName": "推荐"
+          },
+          "route": "detail_article?itemId=708599875409922"
+        },
+        {
+          "itemId": 5385,
+          "itemType": 0,
+          "templateMaterial": {
+            "positionId": 805,
+            "adSdk": "fUNa0bMwgSib89O3HIO6OIHpVaNPbnj7d_SNWv1rTJDZbPuEwouJIbWbsaBUETzMIAQwEubX7tRNwOFb9F6Isw",
+            "adExposureUrl": "https://adx.36kr.com/api/ad/exposure?sign=097a79ae1a1cecb0f4d61937f029e8a9&param.adsdk=fUNa0bMwgSib89O3HIO6OIHpVaNPbnj7d_SNWv1rTJDZbPuEwouJIbWbsaBUETzMIAQwEubX7tRNwOFb9F6Isw",
+            "adJsonContent": "{\"description\":\"蚂蚁区块链超级产品日来了。当数字经济成为趋势，中小企业如何享受红利？复工复产当下，中小企业拥抱链签约时代。\",\"href\":\"https://adx.36kr.com/api/ad/click?sign=20469532a9e77cbfa9fbc90b220e92f7&param.redirectUrl=aHR0cHM6Ly8zNmtyLmNvbS9wLzcxMTM3NDQ4NzM5NTA4MQ&param.adsdk=fUNa0bMwgSib89O3HIO6OIHpVaNPbnj7d_SNWv1rTJDZbPuEwouJIbWbsaBUETzMIAQwEubX7tRNwOFb9F6Isw\",\"title\":\"蚂蚁区块链超级产品日：又一新品即将发布\",\"src\":\"https://img.36krcdn.com/20200517/v2_edad9523a89d464bb0b6e684a76e784a_img_jpg\"}",
+            "flag": "商业视角"
+          }
+        },
+        {
+          "itemId": 711239253056264,
+          "itemType": 10,
+          "templateMaterial": {
+            "itemId": 711239253056264,
+            "templateType": 1,
+            "widgetImage": "https://img.36krcdn.com/20200517/v2_74cb248e46ad4624b20c88d4cfd1aafd_img_jpg?x-oss-process=image/resize,m_mfit,w_210,h_140,limit_0/crop,w_210,h_140,g_center",
+            "publishTime": 1589685714454,
+            "widgetTitle": "新金融周报 | 粤港澳大湾区迎金融政策支持礼包；中国银联与华为签署战略合作协议；年内逾800家银行网点关停",
+            "authorName": "36氪新金融",
+            "navName": "创投"
+          },
+          "route": "detail_article?itemId=711239253056264"
+        },
+        {
+          "itemId": 709034450033159,
+          "itemType": 10,
+          "templateMaterial": {
+            "itemId": 709034450033159,
+            "templateType": 1,
+            "widgetImage": "https://img.36krcdn.com/20200515/v2_367a32b636dd4856bf5a751825aa7b15_img_000",
+            "publishTime": 1589680858000,
+            "widgetTitle": "知乎这十年",
+            "authorName": "IC实验室",
+            "navName": "创投"
+          },
+          "route": "detail_article?itemId=709034450033159"
+        },
+        {
+          "itemId": 710591974595334,
+          "itemType": 10,
+          "templateMaterial": {
+            "itemId": 710591974595334,
+            "templateType": 1,
+            "widgetImage": "https://img.36krcdn.com/20200516/v2_227cc89bf98145f2a0b219e83e9daeac_img_jpg?x-oss-process=image/resize,m_mfit,w_210,h_140,limit_0/crop,w_210,h_140,g_center",
+            "publishTime": 1589680800645,
+            "widgetTitle": "智氪 | 厮杀仍可夺食，京东终迎翻身仗？",
+            "authorName": "Cecilia Xu",
+            "navName": "科技"
+          },
+          "route": "detail_article?itemId=710591974595334"
+        },
+        {
+          "itemId": 707065334831873,
+          "itemType": 10,
+          "templateMaterial": {
+            "itemId": 707065334831873,
+            "templateType": 1,
+            "widgetImage": "https://img.36krcdn.com/20200515/v2_3018ef8097d248dc969ba3f8620d39ca_img_jpeg?x-oss-process=image/resize,m_mfit,w_210,h_140,limit_0/crop,w_210,h_140,g_center",
+            "publishTime": 1589680800000,
+            "widgetTitle": "疫情之下，中国云服务如何“逆势而上”",
+            "authorName": "36氪出海",
+            "navName": "推荐"
+          },
+          "route": "detail_article?itemId=707065334831873"
+        },
+        {
+          "itemId": 710471599823365,
+          "itemType": 10,
+          "templateMaterial": {
+            "itemId": 710471599823365,
+            "templateType": 1,
+            "widgetImage": "https://img.36krcdn.com/20200516/v2_b250cc0722664bbdb1db5f5749670c28_img_000",
+            "publishTime": 1589680192358,
+            "widgetTitle": "丰巢誓争五毛钱，贵族顺丰的背水一战",
+            "authorName": "锌财经",
+            "navName": "推荐"
+          },
+          "route": "detail_article?itemId=710471599823365"
+        },
+        {
+          "itemId": 709070394497541,
+          "itemType": 10,
+          "templateMaterial": {
+            "itemId": 709070394497541,
+            "templateType": 1,
+            "widgetImage": "https://img.36krcdn.com/20200515/v2_c7bb704dccf94f719b93dccf07db8fbc_img_000",
+            "publishTime": 1589678598892,
+            "widgetTitle": "MCN正在「去MCN化」",
+            "authorName": "吴怼怼",
+            "navName": "推荐"
+          },
+          "route": "detail_article?itemId=709070394497541"
+        },
+        {
+          "itemId": 707174532340485,
+          "itemType": 10,
+          "templateMaterial": {
+            "itemId": 707174532340485,
+            "templateType": 1,
+            "widgetImage": "https://img.36krcdn.com/20200514/v2_f5f6bcf4f8cd42ad878462f7fbc26822_img_png?x-oss-process=image/resize,m_mfit,w_210,h_140,limit_0/crop,w_210,h_140,g_center",
+            "publishTime": 1589678266802,
+            "widgetTitle": "为什么有些人更擅长在家办公？你做错了什么？",
+            "authorName": "神译局",
+            "navName": "推荐"
+          },
+          "route": "detail_article?itemId=707174532340485"
+        },
+        {
+          "itemId": 709854747826946,
+          "itemType": 10,
+          "templateMaterial": {
+            "itemId": 709854747826946,
+            "templateType": 1,
+            "widgetImage": "https://img.36krcdn.com/20200516/v2_2997736646bb4676acd86ab866be4ac4_img_000",
+            "publishTime": 1589677790417,
+            "widgetTitle": "引发争议的“新文创”到底是什么？",
+            "authorName": "犀牛娱乐",
+            "navName": "科技"
+          },
+          "route": "detail_article?itemId=709854747826946"
+        },
+        {
+          "itemId": 710303616457224,
+          "itemType": 10,
+          "templateMaterial": {
+            "itemId": 710303616457224,
+            "templateType": 1,
+            "widgetImage": "https://img.36krcdn.com/20200516/v2_3b7d3232bf094ca99b187312d91c1fdf_img_000",
+            "publishTime": 1589677524922,
+            "widgetTitle": "泡泡玛特都融资一亿了，炒家手上的盲盒公仔能“解套”吗？",
+            "authorName": "懂懂笔记",
+            "navName": "推荐"
+          },
+          "route": "detail_article?itemId=710303616457224"
+        },
+        {
+          "itemId": 710295264893448,
+          "itemType": 10,
+          "templateMaterial": {
+            "itemId": 710295264893448,
+            "templateType": 1,
+            "widgetImage": "https://img.36krcdn.com/20200516/v2_0234135fcbcb4066bacd7778c3a9c465_img_png?x-oss-process=image/resize,m_mfit,w_210,h_140,limit_0/crop,w_210,h_140,g_center",
+            "publishTime": 1589677200512,
+            "widgetTitle": "笑果是家“破公司”，不信你去问李诞丨深氪",
+            "authorName": "方婷",
+            "navName": "创投"
+          },
+          "route": "detail_article?itemId=710295264893448"
+        },
+        {
+          "itemId": 694863921830276,
+          "itemType": 10,
+          "templateMaterial": {
+            "itemId": 694863921830276,
+            "templateType": 1,
+            "widgetImage": "https://img.36krcdn.com/20200505/v2_cbf70b486c2e4bd796579be7a1f9a0ce_img_png?x-oss-process=image/resize,m_mfit,w_210,h_140,limit_0/crop,w_210,h_140,g_center",
+            "publishTime": 1589676829714,
+            "widgetTitle": "诺奖物理学家理查德·费曼的秘籍：让一切学习事半功倍",
+            "authorName": "神译局",
+            "navName": "推荐"
+          },
+          "route": "detail_article?itemId=694863921830276"
+        },
+        {
+          "itemId": 707462851369736,
+          "itemType": 10,
+          "templateMaterial": {
+            "itemId": 707462851369736,
+            "templateType": 1,
+            "widgetImage": "https://img.36krcdn.com/20200514/v2_68b7ffd9c60446c28c9c066689363298_img_jpeg?x-oss-process=image/resize,m_mfit,w_210,h_140,limit_0/crop,w_210,h_140,g_center",
+            "publishTime": 1589675436966,
+            "widgetTitle": "职场奇妙指南｜私人订制，做更多人身边的“老佛爷”和“川久保玲”",
+            "authorName": "万阳",
+            "navName": "推荐"
+          },
+          "route": "detail_article?itemId=707462851369736"
+        },
+        {
+          "itemId": 710652131662598,
+          "itemType": 10,
+          "templateMaterial": {
+            "itemId": 710652131662598,
+            "templateType": 1,
+            "widgetImage": "https://img.36krcdn.com/20200517/v2_58e09e54c46f4657904a7399ea6b4f22_img_jpg?x-oss-process=image/resize,m_mfit,w_210,h_140,limit_0/crop,w_210,h_140,g_center",
+            "publishTime": 1589672452477,
+            "widgetTitle": "RPA公司UiPath推出端到端超自动化云平台，并支持SaaS部署",
+            "authorName": "咏仪",
+            "navName": "企服"
+          },
+          "route": "detail_article?itemId=710652131662598"
+        },
+        {
+          "itemId": 697153024710791,
+          "itemType": 10,
+          "templateMaterial": {
+            "itemId": 697153024710791,
+            "templateType": 1,
+            "widgetImage": "https://img.36krcdn.com/20200507/v2_ae36575993624cdfb071c0f5aa39b6d6_img_jpg?x-oss-process=image/resize,m_mfit,w_210,h_140,limit_0/crop,w_210,h_140,g_center",
+            "publishTime": 1589662859118,
+            "widgetTitle": "你应该早上5点起床并坚持30天：这里是10个理由",
+            "authorName": "神译局",
+            "navName": "推荐"
+          },
+          "route": "detail_article?itemId=697153024710791"
+        },
+        {
+          "itemId": 709881740139013,
+          "itemType": 10,
+          "templateMaterial": {
+            "itemId": 709881740139013,
+            "templateType": 1,
+            "widgetImage": "https://img.36krcdn.com/20200516/v2_9d3e08bae8ad4e4799e91ad3ad6473f6_img_jpg?x-oss-process=image/resize,m_mfit,w_210,h_140,limit_0/crop,w_210,h_140,g_center",
+            "publishTime": 1589622345000,
+            "widgetTitle": "无糖饮料40年，都是品牌精心策划的阴谋",
+            "authorName": "蔡姝凝",
+            "navName": "生活"
+          },
+          "route": "detail_article?itemId=709881740139013"
+        },
+        {
+          "itemId": 709801362545413,
+          "itemType": 10,
+          "templateMaterial": {
+            "itemId": 709801362545413,
+            "templateType": 1,
+            "widgetImage": "https://img.36krcdn.com/20200516/v2_d4dfe61e2bc543cfaba6c7d60544fcef_img_000",
+            "publishTime": 1589620845332,
+            "widgetTitle": "错过B站的投资人：我眼中B站的天花板与终局",
+            "authorName": "36氪的朋友们",
+            "navName": "创投"
+          },
+          "route": "detail_article?itemId=709801362545413"
+        },
+        {
+          "itemId": 709885866825988,
+          "itemType": 10,
+          "templateMaterial": {
+            "itemId": 709885866825988,
+            "templateType": 1,
+            "widgetImage": "https://img.36krcdn.com/20200516/v2_240567b938d44aaa9adaa96ebaeccdba_img_000",
+            "publishTime": 1589620158172,
+            "widgetTitle": "树倒猢狲散：贾跃亭一手打造的嫡系，已经食尽鸟投林",
+            "authorName": "贝克街探案官",
+            "navName": "推荐"
+          },
+          "route": "detail_article?itemId=709885866825988"
+        },
+        {
+          "itemId": 709801894648326,
+          "itemType": 10,
+          "templateMaterial": {
+            "itemId": 709801894648326,
+            "templateType": 1,
+            "widgetImage": "https://img.36krcdn.com/20200516/v2_7ee1ad0ccf5b4a08ae3e076d0610d860_img_000",
+            "publishTime": 1589616940689,
+            "widgetTitle": "2020年，这些Livehouse决定关停",
+            "authorName": "音乐先声",
+            "navName": "创投"
+          },
+          "route": "detail_article?itemId=709801894648326"
+        },
+        {
+          "itemId": 703102636210820,
+          "itemType": 10,
+          "templateMaterial": {
+            "itemId": 703102636210820,
+            "templateType": 1,
+            "widgetImage": "https://img.36krcdn.com/20200511/v2_a98829a67f90461ca5f7b36c547c550a_img_jpg?x-oss-process=image/resize,m_mfit,w_210,h_140,limit_0/crop,w_210,h_140,g_center",
+            "publishTime": 1589615597758,
+            "widgetTitle": "期待 iPhone SE Plus 的你，了解过4英寸的 iPhone SE ‘Minus’ 吗？",
+            "authorName": "神译局",
+            "navName": "推荐"
+          },
+          "route": "detail_article?itemId=703102636210820"
+        },
+        {
+          "itemId": 709124704279302,
+          "itemType": 10,
+          "templateMaterial": {
+            "itemId": 709124704279302,
+            "templateType": 1,
+            "widgetImage": "https://img.36krcdn.com/20200515/v2_ab0f5f9a45ec4f79be7338fbee5fce41_img_000",
+            "publishTime": 1589613049000,
+            "widgetTitle": "处在体制内的芒果TV，不该只吃一碗“青春饭”？",
+            "authorName": "读娱",
+            "navName": "创投"
+          },
+          "route": "detail_article?itemId=709124704279302"
+        },
+        {
+          "itemId": 710056098978564,
+          "itemType": 10,
+          "templateMaterial": {
+            "itemId": 710056098978564,
+            "templateType": 1,
+            "widgetImage": "https://img.36krcdn.com/20200516/v2_775af4cbd7604b159a8d963d9092e335_img_png",
+            "publishTime": 1589610384935,
+            "widgetTitle": "撩饭圈，搞电竞：豪华车要抢占“后浪”拍打的每一片海滩",
+            "authorName": "未来汽车日报",
+            "navName": "汽车"
+          },
+          "route": "detail_article?itemId=710056098978564"
+        },
+        {
+          "itemId": 709679278119685,
+          "itemType": 10,
+          "templateMaterial": {
+            "itemId": 709679278119685,
+            "templateType": 1,
+            "widgetImage": "https://img.36krcdn.com/20200516/v2_50c335f1365344babd5b88b1fc59bb5d_img_000",
+            "publishTime": 1589610357769,
+            "widgetTitle": "全球奢侈品“涨价求生”的逻辑何在？",
+            "authorName": "新文化商业",
+            "navName": "创投"
+          },
+          "route": "detail_article?itemId=709679278119685"
+        },
+        {
+          "itemId": 709851990481415,
+          "itemType": 10,
+          "templateMaterial": {
+            "itemId": 709851990481415,
+            "templateType": 1,
+            "widgetImage": "https://img.36krcdn.com/20200516/v2_c24ef0b44d934856848b615d46574b18_img_jpg?x-oss-process=image/resize,m_mfit,w_210,h_140,limit_0/crop,w_210,h_140,g_center",
+            "publishTime": 1589608078463,
+            "widgetTitle": "最前线 | 高瓴资本和淡马锡纷纷减持好未来，减持数量为一半持仓",
+            "authorName": "彭孝秋",
+            "navName": "推荐"
+          },
+          "route": "detail_article?itemId=709851990481415"
+        },
+        {
+          "itemId": 709739259828997,
+          "itemType": 10,
+          "templateMaterial": {
+            "itemId": 709739259828997,
+            "templateType": 1,
+            "widgetImage": "https://img.36krcdn.com/20200516/v2_979ad3efab264ff59ac54797a30b9722_img_000",
+            "publishTime": 1589606740000,
+            "widgetTitle": "从财报一窥疫情究竟如何影响京东",
+            "authorName": "PingWest品玩",
+            "navName": "创投"
+          },
+          "route": "detail_article?itemId=709739259828997"
+        }
+      ],
+      "pageCallback": "eyJmaXJzdElkIjoyOTMyNTA3LCJsYXN0SWQiOjI5MzIyMzksImZpcnN0Q3JlYXRlVGltZSI6MTU4OTY5MjkxMTYyOSwibGFzdENyZWF0ZVRpbWUiOjE1ODk2MDY3NDAwMDB9",
+      "hasNextPage": 1
+    }
+  }
+}
