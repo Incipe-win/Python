@@ -2,6 +2,7 @@ import json
 import requests
 from pprint import pprint
 import time
+from retrying import retry
 import threading
 
 
@@ -10,13 +11,23 @@ class Answer:
         self.url = "https://hncu.xuetangx.com/inner_api/homework/score/result/H+24823+{}/H+24823+{}"
         self.headers = {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36",
-            "Cookie": "plat_id=231; org_id=392; mode=1; xt_expires_in=604800; identity=1; frontendUserReferrer=https://www.xuetangx.com/cloud; frontendUserTrack=52887; _log_user_id=0b3604af9dffb16b69bc828ef652a846; sharesessionid=9464c3228dae2bcb340d9169a0095683; xt=gAAAAABe0OCNbN5XNNKoDC26J_0jCwjobEj3L25QC0oz3umKNcnyyW1xItVJ8QzTBWi7euOY0pG40lZzIDb3mpegGtZUPbTrB4fK2dUteLUzuLJmUKJogng; access_token=gAAAAABe0f6_kUaaGcVQbElyJ_YUUyp_OhCaoVgON8_INq9c8i6NkZElqcCw6VpxQjXH8zbhyEH_Smgsk9nuDwfZVSB1lfENg7tDZtNaJItdEkcuuHKdR1Q"
+            "Cookie": "plat_id=231; org_id=392; mode=1; xt=gAAAAABe0u185WRTDJZ4M7s8MKbwiAmob7v1NUOC_NffRWARo5HPAAJCyrXNnGda-9EwWn0Kc0C6yoLOyKrlyB9_BNA1LYYidHuYFhzbPkk5KWyqXa64dTA; xt_expires_in=604800; identity=1; access_token=gAAAAABe2jaQL5TY-1Z-4b6lnK_SFpPPTDi2G_fCM4Q5AJMyB7mietgMiaUrnkEkAM4-7g2DsXgGPnlKXozxJYcVlr9tzERYpG52qw7PRnZM7dLnAVej-HM"
         }
 
-    def parse_url(self, url):
-        response = requests.get(url, headers=self.headers)
+    @retry(stop_max_attempt_number=3)
+    def _parse_url(self, url):
+        response = requests.get(url, headers=self.headers, timeout=3)
         print(url + " " + str(response.status_code))
+        assert response.status_code == 200
         return response.content.decode()
+
+    def parse_url(self, url):
+        print(url)
+        try:
+            html_str = self._parse_url(url)
+        except:
+            html_str = None
+        return html_str
 
     def save_content(self, content):
         ret = json.loads(content)
@@ -29,8 +40,8 @@ class Answer:
                 f.write(data["stem"])
                 f.write("\n")
                 f.write(str(data["correct_answer"]))
-            f.write("\n")
-            f.write("\n")
+                f.write("\n")
+                f.write("\n")
 
     def run(self):
         for i in range(1, 164):
