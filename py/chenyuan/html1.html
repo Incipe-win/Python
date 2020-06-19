@@ -1,0 +1,201 @@
+<html><head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>正方教务管理系统</title>
+
+    <meta content="all" name="robots">
+    <meta name="author" content="作者信息">
+    <meta name="Copyright" content="版权信息">
+    <meta name="description" content="站点介绍">
+    <meta name="keywords" content="站点关键词">
+    <link rel="icon" type="image/x-icon" href="style/4.0.0.1/images/favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="style/4.0.0.1/images/favicon.ico">
+    
+    <link rel="stylesheet" href="/style/4.0.0.1/css/common.css">
+    <link rel="stylesheet" href="/style/4.0.0.1/css/jwstyle.css">
+    <link rel="stylesheet" type="text/css" href="/style/4.0.0.1/css/bootstrap.min.css">
+
+  <script type="text/javascript" src="/style/4.0.0.1/js/jquery.min.js"></script>
+
+    <script type="text/javascript" src="/style/4.0.0.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="style/4.0.0.1/js/OpenDiago.js"></script>
+
+
+    
+
+    <script src="js/xtwh.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        // initialise plugins
+        var a = b = c = '';
+        function GetMc(text) {
+            document.getElementById('dqwz').innerText = text;
+            var url = window.frames["zhuti"].location.href;
+            var p = url.substring(url.lastIndexOf('/') + 1, url.lastIndexOf('aspx') + 4);
+            a = c;
+            c = p;
+            if (b != text) {
+                if (a != p) {
+                    document.getElementById('lj').innerText = b;
+                }
+                b = text;
+            }
+        }
+     function CheckDataV() {
+            if (jQuery("#txtZY").val() == "") {
+                alert("必须填写<电子邮箱>才能保存！");
+                return false;
+            }
+            if (jQuery("#txtSjhm").val() == "") {
+                alert("必须填写<手机号码>才能保存！");
+                return false;
+            }
+            return true;
+        }
+    </script>
+    
+    <style>
+         .qztcbt{ 
+            z-index: 1002; 
+            left: 50%; 
+            top: 0;
+            margin-top: 200px;
+            position: absolute; 
+            width: 600px;
+            height: 260px;
+            background-color: #ffffff; 
+            overflow: auto; 
+            border: #d8d8d8 1px solid; 
+            padding: 20px; 
+            text-align: center;
+            margin-left: -300px;
+            border-radius: 10px;
+        }
+            .qztcbt table {
+                width: 100%;
+            }
+        .fadesec {
+            z-index: 1001; 
+            position: absolute; 
+            filter: alpha(opacity=30); 
+            background-color: #000; 
+            width: 100%; 
+            height: 100vh; 
+            top: 0%; 
+            left: 0%; 
+            -moz-opacity: 0.3; 
+            opacity: .3;
+        }
+        @media screen and (max-width: 768px) {
+            .qztcbt {
+                width:90%;
+                margin: 0 auto;
+                left: 5%;
+                top:15%;
+                margin-left:0;
+            }
+        }
+     </style>
+</head>
+<body class="mainbody">
+    <div id="bodyDiv">
+        <div id="headDiv" class="clearfix">
+            <!--顶部-->
+            <div class="head clearfix">
+                <!--学校图标及皮肤说明图标-->
+                <div class="logo clearfix">
+                    <div class="logo-sch">
+                        <img src="logo/logo_school.png" alt="学校logo">
+                    </div>
+                    <span id="xtmc">教务管理系统</span>
+                </div>
+                <!--学校图标及皮肤说明图标-->
+                <!--登录信息及工具-->
+                <form name="Form1" method="post" action="./xs_main.aspx?xh=2018052653" id="Form1">
+<div>
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="">
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="YAbaePNX2x5TlvOJ+QNFV0RgGm1REKPLXExP0k4iXYU79otDoJaAciMhK+SP5+8ofNATWA==">
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['Form1'];
+if (!theForm) {
+    theForm = document.Form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="42D0EC5F">
+</div>
+                    
+
+                    
+
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <span id="Label3">欢迎您：</span>
+                                <span id="xhxm">陈明文同学</span>
+                           <a id="likTc" title="安全退出" class="safeexit" href="javascript:__doPostBack('likTc','')">安全退出</a>
+                            </li>
+                        </ul>
+                    </div>
+                </form>
+                <!--登录信息及工具-->
+            </div>
+            <!--顶部-->
+            <!--导航-->
+            <!-- 主菜单Start-->
+            <div class="nav"> <div class="opcls" id="opcls"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </div><ul class="navlist clearfix" id="navxl"><li class="top fhsy"><a class="top_link" href="xs_main.aspx?xh=2018052653"><span class="">首页</span></a></li><li class="top"><a href="#" class="top_link"><span class="down"> 网上选课</span></a><ul class="sub"><li><a href="xf_xsqxxxk.aspx?xh=2018052653&amp;xm=陈明文&amp;gnmkdm=N121101" target="zhuti" onclick="GetMc('校选修课');">校选修课</a></li><li><a href="xstyk.aspx?xh=2018052653&amp;xm=陈明文&amp;gnmkdm=N121102" target="zhuti" onclick="GetMc('选体育课');">选体育课</a></li><li><a href="xscxbm.aspx?xh=2018052653&amp;xm=陈明文&amp;gnmkdm=N121103" target="zhuti" onclick="GetMc('重修或补修选课');">重修或补修选课</a></li><li><a href="xsxk.aspx?xh=2018052653&amp;xm=陈明文&amp;gnmkdm=N121106" target="zhuti" onclick="GetMc('学生选课');">学生选课</a></li></ul></li>  <li class="top"><a href="#a" class="top_link"><span class="down"> 活动报名</span></a><ul class="sub"><li><a href="xssxbm.aspx?xh=2018052653&amp;xm=陈明文&amp;gnmkdm=N121300" target="zhuti" onclick="GetMc('实习选课报名');">实习选课报名</a></li><li><a href="SRTP.aspx?xh=2018052653&amp;xm=陈明文&amp;gnmkdm=N121301" target="zhuti" onclick="GetMc('SRTP');">SRTP</a></li><li><a href="XKJS.aspx?xh=2018052653&amp;xm=陈明文&amp;gnmkdm=N121302" target="zhuti" onclick="GetMc('学科竞赛');">学科竞赛</a></li><li><a href="bmxmb.aspx?xh=2018052653&amp;xm=陈明文&amp;gnmkdm=N121303" target="zhuti" onclick="GetMc('网上报名');">网上报名</a></li><li><a href="xstp.aspx?xh=2018052653&amp;xm=陈明文&amp;gnmkdm=N121304" target="zhuti" onclick="GetMc('网上投票');">网上投票</a></li></ul></li>  <li class="top"><a href="#a" class="top_link"><span class="down"> 教学质量评价</span></a><ul class="sub"><li><a href="xsjxpj.aspx?xkkh=(2019-2020-2)-181003-9997-1&amp;xh=2018052653&amp;gnmkdm=N12141" target="zhuti" onclick="GetMc('大学生网络视频教学B(智慧树)-公共选修');">大学生网络视频教学B(智慧树)-公共选修</a></li><li><a href="xsjxpj.aspx?xkkh=(2019-2020-2)-9151311010-2223-1&amp;xh=2018052653&amp;gnmkdm=N12141" target="zhuti" onclick="GetMc('大学生职业发展和就业指导（1）');">大学生职业发展和就业指导（1）</a></li><li><a href="xsjxpj.aspx?xkkh=(2019-2020-2)-9103811040-0000-52&amp;xh=2018052653&amp;gnmkdm=N12141" target="zhuti" onclick="GetMc('大学体育与健康（4）');">大学体育与健康（4）</a></li><li><a href="xsjxpj.aspx?xkkh=(2019-2020-2)-051867-1755-1&amp;xh=2018052653&amp;gnmkdm=N12141" target="zhuti" onclick="GetMc('大学英语提高课程');">大学英语提高课程</a></li><li><a href="xsjxpj.aspx?xkkh=(2019-2020-2)-061297-2644-1&amp;xh=2018052653&amp;gnmkdm=N12141" target="zhuti" onclick="GetMc('单片机原理与应用');">单片机原理与应用</a></li><li><a href="xsjxpj.aspx?xkkh=(2019-2020-2)-9161715020-2373-4&amp;xh=2018052653&amp;gnmkdm=N12141" target="zhuti" onclick="GetMc('电工电子实训B');">电工电子实训B</a></li><li><a href="xsjxpj.aspx?xkkh=(2019-2020-2)-9092112061-1568-3&amp;xh=2018052653&amp;gnmkdm=N12141" target="zhuti" onclick="GetMc('概率论与数理统计');">概率论与数理统计</a></li><li><a href="xsjxpj.aspx?xkkh=(2019-2020-2)-9122311021-2367-1&amp;xh=2018052653&amp;gnmkdm=N12141" target="zhuti" onclick="GetMc('毛泽东思想和中国特色社会主义理论体系概论');">毛泽东思想和中国特色社会主义理论体系概论</a></li><li><a href="xsjxpj.aspx?xkkh=(2019-2020-2)-061029-2636-1&amp;xh=2018052653&amp;gnmkdm=N12141" target="zhuti" onclick="GetMc('嵌入式系统课程设计');">嵌入式系统课程设计</a></li><li><a href="xsjxpj.aspx?xkkh=(2019-2020-2)-060131-2636-1&amp;xh=2018052653&amp;gnmkdm=N12141" target="zhuti" onclick="GetMc('嵌入式系统原理与技术');">嵌入式系统原理与技术</a></li><li><a href="xsjxpj.aspx?xkkh=(2019-2020-2)-061157-2745-1&amp;xh=2018052653&amp;gnmkdm=N12141" target="zhuti" onclick="GetMc('物联网概论');">物联网概论</a></li><li><a href="xsjxpj.aspx?xkkh=(2019-2020-2)-9125111050-1259-13&amp;xh=2018052653&amp;gnmkdm=N12141" target="zhuti" onclick="GetMc('形势与政策');">形势与政策</a></li></ul></li>  <li class="top"><a href="#a" class="top_link"><span class="down"> 信息维护</span></a><ul class="sub"><li><a href="xsgrxx.aspx?xh=2018052653&amp;xm=陈明文&amp;gnmkdm=N121501" target="zhuti" onclick="GetMc('个人信息');">个人信息</a></li><li><a href="xszzy.aspx?xh=2018052653&amp;xm=陈明文&amp;gnmkdm=N121503" target="zhuti" onclick="GetMc('转专业申请');">转专业申请</a></li><li><a href="xsfxbm.aspx?xh=2018052653&amp;xm=陈明文&amp;gnmkdm=N121504" target="zhuti" onclick="GetMc('辅修报名');">辅修报名</a></li><li><a href="xsxjc.aspx?xh=2018052653&amp;xm=陈明文&amp;gnmkdm=N121505" target="zhuti" onclick="GetMc('学生预定教材');">学生预定教材</a></li></ul></li>  <li class="top"><a href="#a" class="top_link"><span class="down"> 信息查询</span></a><ul class="sub"><li><a href="tjkbcx.aspx?xh=2018052653&amp;xm=陈明文&amp;gnmkdm=N121601" target="zhuti" onclick="GetMc('专业推荐课表查询');">专业推荐课表查询</a></li><li><a href="xskbcx.aspx?xh=2018052653&amp;xm=陈明文&amp;gnmkdm=N121602" target="zhuti" onclick="GetMc('学生个人课表');">学生个人课表</a></li><li><a href="xskscx.aspx?xh=2018052653&amp;xm=陈明文&amp;gnmkdm=N121603" target="zhuti" onclick="GetMc('学生考试查询');">学生考试查询</a></li><li><a href="xscj_gc2.aspx?xh=2018052653&amp;xm=陈明文&amp;gnmkdm=N121604" target="zhuti" onclick="GetMc('成绩查询');">成绩查询</a></li><li><a href="xsdjkscx.aspx?xh=2018052653&amp;xm=陈明文&amp;gnmkdm=N121605" target="zhuti" onclick="GetMc('等级考试查询');">等级考试查询</a></li><li><a href="pyjh.aspx?xh=2018052653&amp;xm=陈明文&amp;gnmkdm=N121606" target="zhuti" onclick="GetMc('培养计划');">培养计划</a></li><li><a href="xxjsjy.aspx?xh=2018052653&amp;xm=陈明文&amp;gnmkdm=N121608" target="zhuti" onclick="GetMc('教室查询');">教室查询</a></li><li><a href="xszzycx.aspx?xh=2018052653&amp;xm=陈明文&amp;gnmkdm=N121609" target="zhuti" onclick="GetMc('转专业查询');">转专业查询</a></li><li><a href="tjkbcx.aspx?xh=2018052653&amp;xm=陈明文&amp;gnmkdm=N121610" target="zhuti" onclick="GetMc('课程介绍查询');">课程介绍查询</a></li><li><a href="xszxcxcx.aspx?xh=2018052653&amp;xm=陈明文&amp;gnmkdm=N121611" target="zhuti" onclick="GetMc('自学重修查询');">自学重修查询</a></li><li><a href="xsxkqk.aspx?xh=2018052653&amp;xm=陈明文&amp;gnmkdm=N121612" target="zhuti" onclick="GetMc('学生选课情况查询');">学生选课情况查询</a></li></ul></li>  <li class="top"><a href="#a" class="top_link"><span class="down"> 毕业论文</span></a><ul class="sub"><li><a href="lw_ckgg.aspx?xh=2018052653&amp;xm=陈明文&amp;gnmkdm=N121701" target="zhuti" onclick="GetMc('查看公告');">查看公告</a></li><li><a href="lw_xsxt.aspx?xh=2018052653&amp;xm=陈明文&amp;gnmkdm=N121702" target="zhuti" onclick="GetMc('学生选题');">学生选题</a></li><li><a href="lw_xstjzz.aspx?xh=2018052653&amp;xm=陈明文&amp;gnmkdm=N121703" target="zhuti" onclick="GetMc('学生查看提交周志');">学生查看提交周志</a></li><li><a href="lw_xsxx.aspx?xh=2018052653&amp;xm=陈明文&amp;gnmkdm=N121704" target="zhuti" onclick="GetMc('学生信息维护');">学生信息维护</a></li><li><a href="lw_xstjzl.aspx?xh=2018052653&amp;xm=陈明文&amp;gnmkdm=N121705" target="zhuti" onclick="GetMc('学生查看提交资料');">学生查看提交资料</a></li></ul></li>  <li class="top"><a href="#a" class="top_link"><span class="down"> 公用信息</span></a><ul class="sub"><li><a href="cjcx_bm.aspx?xh=2018052653&amp;xm=陈明文&amp;gnmkdm=N123102" target="zhuti" onclick="GetMc('班级成绩查询');">班级成绩查询</a></li><li><a href="cjcx_wl.aspx?xh=2018052653&amp;xm=陈明文&amp;gnmkdm=N123103" target="zhuti" onclick="GetMc('按学号查询学生成绩');">按学号查询学生成绩</a></li></ul></li></ul></div>
+            <!--选项卡-->
+            <div class="tab">
+                <p class="location">
+                    <em>当前位置 --
+							<span id="dqwz">首页</span><span id="lj" style="display: none"></span>
+                    </em>
+                    <span id="xsrs" style="color:Red;"></span>
+                </p>
+            </div>
+            <!--选项卡-->
+            <!--导航-->
+        </div>
+        <div id="mainDiv">
+            <div id="leftDiv">
+            </div>
+            <div id="rightDiv">
+                <div id="iframeout" style="height: 671px;">
+                    <iframe id="iframeautoheight" class="rightcontiframe" name="zhuti" allowtransparency="" src="content_xs.aspx" scrolling="no" frameborder="0" marginwidth="0" marginheight="0" width="100%" height="1451px" style="visibility: visible;"></iframe>
+                </div>
+            </div>
+        </div>
+
+        <div id="footerDiv">
+            <input name="hidNJ" type="hidden" id="hidNJ"><input name="hidXY" type="hidden" id="hidXY">
+            <input name="hidZYDM" type="hidden" id="hidZYDM">
+            <!--底部-->
+            <div class="footer" style="display:none;">
+                <p><span>版权所有@Copyright 1999-2020</span><span>正方软件股份有限公司</span><span>中国·杭州西湖区紫霞街176号 </span><span>互联网创新创业园2号301</span></p>
+            </div>
+            <input id="txtTimeStamp" style="display: none">
+   
+            <!--底部-->
+        </div>
+    </div>
+    
+  
+    <script src="/style/4.0.0.1/js/common.js" type="text/javascript"></script>
+
+
+</body></html>

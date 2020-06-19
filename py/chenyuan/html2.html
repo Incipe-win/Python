@@ -1,0 +1,484 @@
+<html><head>
+    <title>现代教学管理信息系统--学生登录首页</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta content="all" name="robots">
+    <meta name="author" content="作者信息">
+    <meta name="Copyright" content="版权信息">
+    <meta name="description" content="站点介绍">
+    <meta name="keywords" content="站点关键词">
+    <link rel="icon" type="image/x-icon" href="style/4.0.0.1/images/favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="style/4.0.0.1/images/favicon.ico">
+    <link rel="stylesheet" href="/style/4.0.0.1/css/common.css">
+    <link rel="stylesheet" href="/style/4.0.0.1/css/jwstyle.css">
+    <link rel="stylesheet" type="text/css" href="/style/4.0.0.1/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="/style/4.0.0.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/style/4.0.0.1/loading/loading.css">
+    <script type="text/javascript" src="/style/4.0.0.1/js/OpenDiago.js"></script>
+    <script type="text/javascript" src="/style/4.0.0.1/js/jquery.min.js"></script>
+    <script type="text/javascript" src="/style/4.0.0.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/style/4.0.0.1/js/echarts.min.js"></script>
+    <script type="text/javascript" src="/style/4.0.0.1/loading/loading.js"></script>
+</head>
+<body class="index-charts" marginwidth="0" marginheight="0">
+    <form name="form1" method="post" action="./content_xs.aspx" id="form1">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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">
+</div>
+
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="D187C983">
+</div>
+
+        <div id="divxyjd" class="com-sec grxyjd">
+
+            <div class="com-tit com-tit-pcenter  clearfix">
+                <h3>学业进度</h3>
+                <p class="font-red">
+                    <span>
+                        <img src="style/4.0.0.1/images/refresh-b.png" alt="刷新" id="btnSx"></span>（统计截止至<label id="TJSJ">2020-06-19 11:53:17</label>）
+                </p>
+            </div>
+            <div class="row comcon-sec" id="loading-content">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="grxyjd-part">
+                            
+                            <div class="part" id="jxjhchart" _echarts_instance_="ec_1592569050737" style="-webkit-tap-highlight-color: transparent; user-select: none; position: relative;"><div style="position: relative; overflow: hidden; width: 425px; height: 200px; padding: 0px; margin: 0px; border-width: 0px;"><canvas data-zr-dom-id="zr_0" width="425" height="200" style="position: absolute; left: 0px; top: 0px; width: 425px; height: 200px; user-select: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); padding: 0px; margin: 0px; border-width: 0px;"></canvas></div><div></div></div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="grxyjd-part">
+                            
+                            <div class="part" id="glxfchart" _echarts_instance_="ec_1592569050738" style="-webkit-tap-highlight-color: transparent; user-select: none; position: relative;"><div style="position: relative; overflow: hidden; width: 881px; height: 200px; padding: 0px; margin: 0px; border-width: 0px;"><canvas data-zr-dom-id="zr_0" width="881" height="200" style="position: absolute; left: 0px; top: 0px; width: 881px; height: 200px; user-select: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); padding: 0px; margin: 0px; border-width: 0px;"></canvas></div><div></div></div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+
+                        <div class="grxyjd-part wtgkc">
+                            <div class="desc-sec clearfix" id="xftj1">
+                                <p>毕业最低<span id="ZXF"></span>学分</p>
+                                <p>目前学了<span id="YXXZXF">69</span>学分</p>
+                                <p class="ffbjg">不及格<span id="BJGZXF">0</span>学分</p>
+                                <p>计划内未修<span id="WXZXF">82.5</span>学分</p>
+
+                            </div>
+                            <div class="part" id="xftj2">
+                                <ul id="liBjgkc"></ul>
+                            </div>
+
+                            <div class="xftsxx" id="xyjd" style="display: none;">
+                                <h3 id="xyTitle"></h3>
+                                <p id="xyConc" style="text-decoration: underline;">
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row comcon-sec">
+                <div class="desc-con">
+                    
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="row clsntc">
+            
+            <div id="divQtxx">
+
+                <div class="col-md-9">
+                    <div class="com-sec" id="clstb">
+                        <div class="com-tit com-tit-pcenter clearfix">
+                            <h3>课表</h3>
+                            <p>
+                                第2019-2020-2学期教学<input name="lstJxz" type="number" id="lstJxz" min="0" max="25" class="form-control sch-weeccs">周课表
+                            </p>
+                        </div>
+                        <div class="comcon-sec">
+                            <div class="class-table">
+                                <table id="Table6">
+                                    <tbody><tr>
+                                        <td width="65">星期一</td>
+                                        <td id="td11" class="contp"><p class="kblsbk"></p><p class="kblsbk"> <span class="time">1-2节 (1-7周)</span><span class="kejie">概率论与数理统计</span> <span class="didian">1-201</span></p> <span class="time">1-2节 (12-12|双周)</span><span class="kejie">概率论与数理统计</span> <span class="didian">1-201</span><p></p></td>
+
+                                        <td id="td12" class="contp"><p class="kblsbk"> <span class="time">3-4节 (5-8周)</span><span class="kejie">形势与政策</span> <span class="didian"></span></p></td>
+
+                                        <td id="td13" class="contp"><p class="kblsbk"> <span class="time">5-6节 (1-12周)</span><span class="kejie">物联网概论</span> <span class="didian">2-324</span></p></td>
+
+                                        <td id="td14" class="contp"><p class="kblsbk"> <span class="time">7-8节 (1-8周)</span><span class="kejie">嵌入式系统原理与技术</span> <span class="didian">2-317</span></p></td>
+
+                                        <td id="td15" class="contp"></td>
+
+                                    </tr>
+                                    <tr>
+                                        <td>星期二</td>
+                                        <td id="td21" class="contp"></td>
+
+                                        <td id="td22" class="contp"><p class="kblsbk"> <span class="time">3-4节 (1-10周)</span><span class="kejie">单片机原理与应用</span> <span class="didian">1-412</span></p></td>
+
+                                        <td id="td23" class="contp"><p class="kblsbk"></p><p class="kblsbk"> <span class="time">5-6节 (14-18|双周)</span><span class="kejie">毛泽东思想和中国特色社会主义理论体系概论</span> <span class="didian">1-207</span></p> <span class="time">5-6节 (2-8|双周)</span><span class="kejie">毛泽东思想和中国特色社会主义理论体系概论</span> <span class="didian">1-207</span><p></p></td>
+
+                                        <td id="td24" class="contp"><p class="kblsbk"> <span class="time">7-8节 (1-10周)</span><span class="kejie">大学体育与健康（4）</span> <span class="didian"></span></p></td>
+
+                                        <td id="td25" class="contp"></td>
+
+                                    </tr>
+                                    <tr>
+                                        <td>星期三</td>
+                                        <td id="td31" class="contp"></td>
+
+                                        <td id="td32" class="contp"><p class="kblsbk"></p><p class="kblsbk"> <span class="time">3-4节 (1-9周)</span><span class="kejie">毛泽东思想和中国特色社会主义理论体系概论</span> <span class="didian">1-207</span></p> <span class="time">3-4节 (13-18周)</span><span class="kejie">毛泽东思想和中国特色社会主义理论体系概论</span> <span class="didian">1-207</span><p></p></td>
+
+                                        <td id="td33" class="contp"><p class="kblsbk"> <span class="time">5-6节 (1-8周)</span><span class="kejie">嵌入式系统原理与技术</span> <span class="didian">2-317</span></p></td>
+
+                                        <td id="td34" class="contp"></td>
+
+                                        <td id="td35" class="contp"></td>
+
+                                    </tr>
+                                    <tr>
+                                        <td>星期四</td>
+                                        <td id="td41" class="contp"></td>
+
+                                        <td id="td42" class="contp"><p class="kblsbk"></p><p class="kblsbk"> <span class="time">3-4节 (1-7周)</span><span class="kejie">概率论与数理统计</span> <span class="didian">1-201</span></p> <span class="time">3-4节 (12-12|双周)</span><span class="kejie">概率论与数理统计</span> <span class="didian">1-201</span><p></p></td>
+
+                                        <td id="td43" class="contp"></td>
+
+                                        <td id="td44" class="contp"></td>
+
+                                        <td id="td45" class="contp"></td>
+
+                                    </tr>
+                                    <tr>
+                                        <td>星期五</td>
+                                        <td id="td51" class="contp"><p class="kblsbk"> <span class="time">1-2节 (2-17周)</span><span class="kejie">大学英语提高课程</span> <span class="didian">2-324</span></p></td>
+
+                                        <td id="td52" class="contp"><p class="kblsbk"></p><p class="kblsbk"> <span class="time">3-4节 (1-9周)</span><span class="kejie">毛泽东思想和中国特色社会主义理论体系概论</span> <span class="didian">1-207</span></p> <span class="time">3-4节 (13-17周)</span><span class="kejie">毛泽东思想和中国特色社会主义理论体系概论</span> <span class="didian">1-207</span><p></p></td>
+
+                                        <td id="td53" class="contp"><p class="kblsbk"> <span class="time">5-6节 (1-10周)</span><span class="kejie">单片机原理与应用</span> <span class="didian">2-316</span></p></td>
+
+                                        <td id="td54" class="contp"><p class="kblsbk"> <span class="time">7-8节 (1-12周)</span><span class="kejie">物联网概论</span> <span class="didian">2-324</span></p></td>
+
+                                        <td id="td55" class="contp"></td>
+
+                                    </tr>
+                                    <tr>
+                                        <td>星期六</td>
+                                        <td id="td61" class="contp"></td>
+
+                                        <td id="td62" class="contp"></td>
+
+                                        <td id="td63" class="contp"></td>
+
+                                        <td id="td64" class="contp"></td>
+
+                                        <td id="td65" class="contp"></td>
+
+                                    </tr>
+                                    <tr>
+                                        <td>星期日</td>
+                                        <td id="td71" class="contp"><p class="kblsbk"> <span class="time">1-2节 (14-14|双周)</span><span class="kejie">大学生职业发展和就业指导（1）</span> <span class="didian"></span></p></td>
+
+                                        <td id="td72" class="contp"><p class="kblsbk"> <span class="time">3-4节 (14-14|双周)</span><span class="kejie">大学生职业发展和就业指导（1）</span> <span class="didian"></span></p></td>
+
+                                        <td id="td73" class="contp"><p class="kblsbk"> <span class="time">5-6节 (14-14|双周)</span><span class="kejie">大学生职业发展和就业指导（1）</span> <span class="didian"></span></p></td>
+
+                                        <td id="td74" class="contp"><p class="kblsbk"> <span class="time">7-8节 (14-14|双周)</span><span class="kejie">大学生职业发展和就业指导（1）</span> <span class="didian"></span></p></td>
+
+                                        <td id="td75" class="contp"></td>
+
+                                    </tr>
+                                </tbody></table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="com-sec" id="tzdiv1" style="height: 575px;">
+                        <div class="com-tit clearfix">
+                            <h3>通知公告</h3>
+                            <p><a href="/content.aspx?xh=2018052653" target="zhuti">更多</a></p>
+                        </div>
+                        <div class="comcon-sec">
+                            <div class="notice">
+                                <ul id="ListNoes"><li><a href="#" onclick="OpenDiago('通知公告查看','ggsm.aspx?fbsj=2018-06-06 09:51:57&amp;yxqx=2022-06-06&amp;xh=','80%')"> 成绩录入须知</a><span>2018-06-06</span> </li></ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="com-sec" id="tzdiv2" style="height: 575px;">
+                        <div class="com-tit clearfix">
+                            <h3>操作日志</h3>
+                            <p><a href="#">更多</a></p>
+                        </div>
+                        <div class="comcon-sec">
+                            <div class="notice">
+                                <ul id="Ul1">
+                                    <li>模块在开发中...</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <input type="submit" name="btncx" value="Button" id="btncx" style="display: none;">
+
+                </div>
+            </div>
+        </div>
+
+        <script type="text/javascript">
+            var smkh = ($("#clstb").height() - 26) / 2;
+            //console.log($("#clstb").height())
+            $("#tzdiv1").height(smkh);
+            $("#tzdiv2").height(smkh);
+        </script>
+        <script type="text/javascript">
+            // 教学计划内学分完成情况
+            jxjhoption = {
+                title: {
+                    text: '已获学分情况统计',
+                    x: 'center'
+                },
+                color: ['#40A2FC', '#4588F8', '#FAD347', '#FF7E45', '#F194BA', '#F3DC41', '#FCB64C'],
+                tooltip: {
+                    trigger: 'item',
+                    formatter: "{a} <br/>{b} : {c} ({d}%)"
+                },
+                grid: {
+                    left: '0%',   //距离左边的距离
+                    right: '0%', //距离右边的距离
+                    bottom: '0%',//距离下边的距离
+                    top: '5%' //距离上边的距离
+                },
+                legend: {
+                    orient: 'vertical',
+                    top: '20%',
+                    x: 'left',
+                    data: []
+                },
+                calculable: true,
+                series: [
+                    {
+                        name: '课程类型(学分)',
+                        type: 'pie',
+                        radius: '55%',
+                        center: ['60%', '60%'],
+                        label: {
+                            normal: {
+                                show: false,
+                                position: 'center'
+                            }
+                        },
+                        labelLine: {
+                            normal: {
+                                show: false
+                            }
+                        },
+                        data: []
+                    }
+                ]
+            }
+            var jxjhChart = echarts.init(document.getElementById('jxjhchart'));
+            jxjhChart.setOption(jxjhoption);
+
+            var itemStyle = {
+                normal: {
+                },
+                emphasis: {
+                    barBorderWidth: 1,
+                    shadowBlur: 10,
+                    shadowOffsetX: 0,
+                    shadowOffsetY: 0,
+                    shadowColor: 'rgba(0,0,0,0.5)'
+                }
+            };
+            //var xAxisData = [];
+            //var data1 = [];
+            //var data2 = [];
+            //var data3 = [];
+
+            //for (var i = 0; i < 10; i++) {
+            //    xAxisData.push('Class' + i);
+            //    data1.push((Math.random() * 2).toFixed(2));
+            //    data2.push(Math.random().toFixed(2));
+            //    data3.push((Math.random() * 5).toFixed(2));
+            //}
+            glxfoption = {
+                title: {
+                    x: 'center',
+                    text: '各类学分修读情况(单位：学分)'
+                },
+                color: ['#60c447', '#fb0902', '#d8d8d8'],
+                legend: {
+                    data: ['未修', '不及格', '已获'],
+                    top: 25,
+                },
+                tooltip: {},
+                grid: {
+                    left: '5%',   //距离左边的距离
+                    right: '5%', //距离右边的距离
+                    bottom: '10%',//距离下边的距离
+                    top: '30%' //距离上边的距离
+                },
+                xAxis: {
+                    data: [],
+                    silent: false,
+                    axisLine: { onZero: true },
+                    splitLine: { show: false },
+                    splitArea: { show: false }
+                },
+                yAxis: {
+                    inverse: false,
+                    splitArea: { show: false }
+                },
+
+                series: [
+                    {
+                        name: '已获',
+                        type: 'bar',
+                        stack: 'one',
+                        itemStyle: itemStyle,
+                        barWidth: '35%',
+                        data: []
+                    }, {
+                        name: '不及格',
+                        type: 'bar',
+                        stack: 'one',
+                        itemStyle: itemStyle,
+                        barWidth: '35%',
+                        data: []
+                    },
+                    {
+                        name: '未修',
+                        type: 'bar',
+                        stack: 'one',
+                        itemStyle: itemStyle,
+                        barWidth: '35%',
+                        data: []
+                    }
+
+                ]
+            };
+            var myChart = echarts.init(document.getElementById('glxfchart'));
+            myChart.setOption(glxfoption);
+
+            function reloadInitCtrl(mode) {
+                var bjgkc;
+                var xyConc;
+                $.ajax({
+                    type: "POST",
+                    url: "ajaxRequest/xyjd.ashx",
+                    data: mode,
+                    success: function (data) {
+                        try {
+                            jxjhChart.setOption({
+                                legend: {
+                                    data: data.WCXFTJ
+                                }, series: [
+                                    {
+                                        data: data.WCXFTJMX
+                                    }
+                                ]
+                            });
+                            myChart.setOption({
+                                xAxis: {
+                                    data: data.XFTJ,
+                                },
+                                series: [
+
+                                    {
+                                        data: data.YHXF
+                                    },
+                                    {
+                                        data: data.BJGXF
+                                    }, {
+                                        data: data.YXXF
+                                    }
+
+
+                                ]
+                            });
+                            $("#ZXF").text(data.ZDXF);
+                            $("#YXXZXF").text(data.YXXZXF);
+                            $("#BJGZXF").text(data.BJGZXF);
+                            $("#WXZXF").text(data.WXZXF);
+                            $("#TJSJ").text(data.TJSJ);
+                            xyConc = data.XYYJTITLE
+                            if (xyConc != "") {
+                                $("#xftj1").hide();
+                                $("#xftj2").hide();
+                                $("#xyjd").show(); 
+                                $("#xyTitle").html(data.XYYJTITLE)
+                                $("#xyConc").html(data.XYYJCON)
+                            } else {
+                                 $("#xftj1").show();
+                                $("#xftj2").show();
+                                $("#xyjd").hide(); 
+                                bjgkc = data.BJGKC;
+                                var htmvalue = "";
+                                var htmlM = "&nbsp;&nbsp;..."
+                                for (var i = 0; i < bjgkc.length; i++) {
+                                    if (i < 4) {
+                                        if (bjgkc.length > 4 && i == 3) {
+                                            htmvalue = htmvalue + " <li><a href='#' title='不及格课程'></a>" + bjgkc[i] + htmlM + "</li>";
+                                        } else {
+                                            htmvalue = htmvalue + " <li><a href='#' title='不及格课程'></a>" + bjgkc[i] + "</li>";
+                                        }
+                                    } else {
+                                        break;
+                                    }
+
+
+                                }
+                                $("#liBjgkc").html(htmvalue);
+                            }
+                        }
+                        catch (e) {
+
+                        }
+
+                    }
+
+                });
+            };
+
+            $(document).ready(function () {
+                reloadInitCtrl();
+                $("#btnSx").click(function () {
+                    var load = new Loading();
+                    load.init({
+                        target: "#loading-content"
+                    });
+                    load.start();
+                    $('#loading-content').find('.row').css('opacity', '0');
+                    setTimeout(function () {
+                        load.stop();
+                        $('#loading-content').find('.row').css('opacity', '1');
+                    }, 1000)
+                    reloadInitCtrl("Mode=REF")
+                });
+                $(".ffbjg").click(function () {
+                    $("#liBjgkc").toggle();
+                });
+
+              
+
+                $("#lstJxz").on('change', function () {
+                    //__doPostBack('btncx', '');
+                    $("#btncx").trigger('click');
+                    var smkh = ($("#clstb").height() - 26) / 2;
+                    $("#tzdiv1").height(smkh);
+                    $("#tzdiv2").height(smkh);
+                });
+            });
+
+
+        </script>
+    </form>
+
+
+</body></html>
