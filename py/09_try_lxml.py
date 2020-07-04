@@ -20,5 +20,5 @@ text = """<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
 html = etree.HTML(text)
 print(html)
 # print(etree.tostring(html).decode())
-ret = html.xpath("/html/head/link/@href")
+ret = html.xpath("/link/@href")
 print(ret)

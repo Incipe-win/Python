@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>个人主页</title>
+  </head>
+  <body>
+    你好！欢迎访问{{ content }}的个人主页！<br />
+    列表:<br />
+    {{ list }}<br />
+    遍历列表:<br />
+    <ul>
+      {% for i in list %}
+      <li>
+        {{ i }}
+      </li>
+      {% endfor %}
+    </ul>
+  </body>
+</html>

@@ -2,6 +2,7 @@ import requests
 from selenium import webdriver
 import time
 from lxml import etree
+from selenium.webdriver.chrome.options import Options
 
 
 class Table:
@@ -11,7 +12,11 @@ class Table:
         # self.passwd = passwd
 
     def simulate(self):
-        driver = webdriver.Chrome()
+        chrome_options = Options()
+        chrome_options.add_argument('--headless')
+        chrome_options.add_argument('--disable-gpu')
+        chrome_options.add_argument('--no-sandbox')  # 这个配置很重要
+        driver = webdriver.Chrome(chrome_options=chrome_options)
         driver.maximize_window()
         driver.get(self.url)
         # driver.find_element_by_id("username").send_keys(self.number)
