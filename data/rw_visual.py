@@ -13,7 +13,8 @@ while True:
                 cmap=plt.cm.Blues, edgecolor="none", s=1)
     plt.axes().get_xaxis().set_visible(False)
     plt.axes().get_yaxis().set_visible(False)
-    plt.show()
+    # plt.show()
+    plt.savefig("./walk.svg")
     keep_running = input("Make another walk? (y/n): ")
     if keep_running == 'n':
         break
